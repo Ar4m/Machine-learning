@@ -8,12 +8,12 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '/pokemon/',
       name: 'Pokemon',
       component: Pokemon
     },
     {
-      path: '/three/',
+      path: '/',
       name: 'Threejs',
       component: Threejs
     },
